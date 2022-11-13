@@ -25,8 +25,8 @@ kornia==0.5.4
 Markdown==3.3.4
 matplotlib-inline==0.1.2
 multidict==5.1.0
-numpy==1.21.0
-oauthlib==3.1.1
+numpy==1.22.2
+oauthlib==3.2.1
 omegaconf==2.1.0
 packaging==20.9
 parso==0.8.2
@@ -62,3 +62,4 @@ urllib3==1.26.6
 wcwidth==0.2.5
 Werkzeug==2.0.1
 yarl==1.6.3
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
